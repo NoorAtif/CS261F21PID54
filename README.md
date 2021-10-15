@@ -1,2 +1,2 @@
-# CS261F21PID54
+# Laptop Scraper
 Mid-Term Project
