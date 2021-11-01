@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>up_down_arrow_80px.png</file>
+    <file>module_8px.png</file>
+    <file>play_30px.png</file>
+    <file>stop_24px.png</file>
+    <file>pause_24px.png</file>
+    <file>laptop_96px.png</file>
+  </qresource>
+</RCC>
