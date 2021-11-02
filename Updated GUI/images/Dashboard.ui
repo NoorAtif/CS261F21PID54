@@ -458,7 +458,7 @@ color: rgb(255, 255, 255);</string>
   </widget>
  </widget>
  <resources>
-  <include location="images/source.qrc"/>
+  <include location="source.qrc"/>
  </resources>
  <connections/>
 </ui>
