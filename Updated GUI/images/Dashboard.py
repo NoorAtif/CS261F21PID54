@@ -74,8 +74,7 @@ class Ui_Dialog(object):
         self.label_2.setObjectName("label_2")
         self.progressBar = QtWidgets.QProgressBar(self.Play)
         self.progressBar.setGeometry(QtCore.QRect(230, 140, 661, 31))
-        self.progressBar.setStyleSheet("\n"
-"")
+        self.progressBar.setStyleSheet("")
         self.progressBar.setProperty("value", 24)
         self.progressBar.setObjectName("progressBar")
         self.widget = QtWidgets.QWidget(self.Play)
@@ -135,20 +134,35 @@ class Ui_Dialog(object):
         self.label_3.setText("")
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(self.Play)
-        self.label_4.setGeometry(QtCore.QRect(740, 180, 41, 31))
+        self.label_4.setGeometry(QtCore.QRect(710, 180, 41, 31))
         self.label_4.setStyleSheet("image: url(:/newPrefix/pause_24px.png);")
         self.label_4.setText("")
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(self.Play)
-        self.label_5.setGeometry(QtCore.QRect(770, 180, 61, 31))
+        self.label_5.setGeometry(QtCore.QRect(750, 180, 61, 31))
         self.label_5.setStyleSheet("image: url(:/newPrefix/stop_24px.png);")
         self.label_5.setText("")
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(self.Play)
-        self.label_6.setGeometry(QtCore.QRect(830, 180, 31, 31))
+        self.label_6.setGeometry(QtCore.QRect(820, 180, 31, 31))
         self.label_6.setStyleSheet("image: url(:/newPrefix/play_30px.png);")
         self.label_6.setText("")
         self.label_6.setObjectName("label_6")
+        self.pushButton = QtWidgets.QPushButton(self.Play)
+        self.pushButton.setGeometry(QtCore.QRect(710, 210, 41, 21))
+        self.pushButton.setStyleSheet("background-color: rgb(0, 0, 127);\n"
+"color: rgb(255, 255, 255);")
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_3 = QtWidgets.QPushButton(self.Play)
+        self.pushButton_3.setGeometry(QtCore.QRect(810, 210, 41, 21))
+        self.pushButton_3.setStyleSheet("background-color: rgb(0, 0, 127);\n"
+"color: rgb(255, 255, 255);")
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_2 = QtWidgets.QPushButton(self.Play)
+        self.pushButton_2.setGeometry(QtCore.QRect(760, 210, 41, 21))
+        self.pushButton_2.setStyleSheet("background-color: rgb(0, 0, 127);\n"
+"color: rgb(255, 255, 255);")
+        self.pushButton_2.setObjectName("pushButton_2")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -180,7 +194,10 @@ class Ui_Dialog(object):
         item.setText(_translate("Dialog", "Discount"))
         item = self.tableWidget.horizontalHeaderItem(6)
         item.setText(_translate("Dialog", "Old Price"))
-import source_rc
+        self.pushButton.setText(_translate("Dialog", "Pause"))
+        self.pushButton_3.setText(_translate("Dialog", "Play"))
+        self.pushButton_2.setText(_translate("Dialog", "Stop"))
+import source
 
 
 if __name__ == "__main__":
