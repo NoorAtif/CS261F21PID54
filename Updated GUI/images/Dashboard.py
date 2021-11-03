@@ -199,7 +199,6 @@ class Ui_Dialog(object):
         self.pushButton_2.setText(_translate("Dialog", "Stop"))
 import source
 
-
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
